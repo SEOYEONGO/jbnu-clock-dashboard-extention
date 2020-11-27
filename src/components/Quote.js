@@ -12,11 +12,11 @@ export default function Quote() {
                 <span>
                     {quotes[number].quote}
                 </span>
-            </p>
-            <p>
+                &nbsp; &nbsp; 
                 <span>
-                    {`- ${quotes[number].author} -`}
+                    {`- ${quotes[number].author}`}
                 </span>
+                
             </p>
         </div>
     );
